@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/colorPrimaryDark"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/cerclebackgrond"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="SMILE FOUNDATION"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The main aim of this NGO is the rehabilitation of the underprivileged by providing them education and healthcare services, thereby converting them into productive assets. It is run by a group of corporate professionals."
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wanna Know More? Click Here"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

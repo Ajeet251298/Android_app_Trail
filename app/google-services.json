@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "736714544481",
+    "firebase_url": "https://socialevent2.firebaseio.com",
+    "project_id": "socialevent2",
+    "storage_bucket": "socialevent2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736714544481:android:cda7cf8a25c41046a12120",
+        "android_client_info": {
+          "package_name": "com.example.social_event"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736714544481-les3l1m9m1bfrt58qsbmtae3o50btdia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgCpQNTSG5SSKw14gzPlUPktcs3zv4s9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736714544481-les3l1m9m1bfrt58qsbmtae3o50btdia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

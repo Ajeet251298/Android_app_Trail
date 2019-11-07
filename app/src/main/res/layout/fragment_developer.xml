@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="221dp"
+        android:src="@drawable/ajeet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="34dp"
+        android:text="AJEET SINGH"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="191dp"
+        android:layout_height="258dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="9dp"
+        android:src="@drawable/tanya" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="34dp"
+        android:text="Tanya Agrawal"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</RelativeLayout>
