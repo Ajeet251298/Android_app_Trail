@@ -16,7 +16,9 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DeveloperFragment extends Fragment {
+public class
+
+DeveloperFragment extends Fragment {
 
    Dialog dialog;
    ImageView imageView;
@@ -43,6 +45,8 @@ public class DeveloperFragment extends Fragment {
     public void Showpopup(View view)
     {
         TextView txtclose;
+
+
         dialog.setContentView( R.layout.custompopup1 );
         txtclose = (TextView)dialog.findViewById( R.id.txtclose );
         txtclose.setOnClickListener( new View.OnClickListener() {

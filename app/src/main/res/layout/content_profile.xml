@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/screen_area"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".profile"
     tools:showIn="@layout/app_bar_profile">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/screen_area">
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/listview">
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/logo" />
-    </FrameLayout>
-
-</RelativeLayout>
+     </ListView>
+</LinearLayout>

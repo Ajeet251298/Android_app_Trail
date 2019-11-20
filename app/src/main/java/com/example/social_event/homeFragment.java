@@ -23,7 +23,7 @@ public class homeFragment extends Fragment implements AdapterView.OnItemClickLis
 
          View view =inflater.inflate(R.layout.fragment_home,null);
 
-        String s[]=new String[]{"CHILD LABOUR","GIRLS EDUCATION","CHILD MARRIAGE"};
+        String s[]=new String[]{"CHILD LABOUR","GIRLS EDUCATION","CHILD MARRIAGE","Women Safty","Animal care","Illiteracy"};
         listView =(ListView)view.findViewById(R.id.listview);
         ArrayAdapter arrayAdapter = new ArrayAdapter( getActivity(),android.R.layout.simple_expandable_list_item_1,s );
         listView.setAdapter( arrayAdapter );
